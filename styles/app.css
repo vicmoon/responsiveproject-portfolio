@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#895DF1;
+    --secondary-color:rgb(173, 239, 255);
+    --heading-font:'Montserrat', sans-serif;
+}
+
+
+p {
+    font-size: bold;
+}
+h1  {
+    font-size: 70px;
+}
+
+@media (min-width:500px){
+    h1{
+        text-align: center;
+    }
+}
+h2{
+    font-weight: bold;
+}
+body{
+    font-family: var(--heading-font);
+}
+
+.main-character{
+    text-align: center;
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+    padding:160px 20px;
+}
+.main-character p {
+    font-family: var (--heading-font);
+    
+}
+
+.btn-primary {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px 20px;
+    background: var(--primary-color)
+}
