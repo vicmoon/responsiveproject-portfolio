@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#895DF1;
+    --primary-color:#0745ff;
     --secondary-color:rgb(210, 238, 245);
     --third-color:black;
     --heading-font:'Montserrat', sans-serif;
@@ -54,8 +54,8 @@ img{
     padding: 10px 10pxs;
 }
 
-
 @media (max-width:900px){
-    body:text-align: center;
-
+    body{
+    text-align: center;
+    }
 }
