@@ -1,27 +1,22 @@
 :root{
     --primary-color:#895DF1;
     --secondary-color:rgb(210, 238, 245);
+    --third-color:black;
     --heading-font:'Montserrat', sans-serif;
-}
-
-
-p {
-    font-size: bold;
-}
-h1  {
-    font-size: 70px;
-}
-
-@media (min-width:500px){
-    h1{
-        text-align: center;
-    }
-}
-h2{
-    font-weight: bold;
 }
 body{
     font-family: var(--heading-font);
+    
+}
+h1, h2, h3, p{
+    color: var(--third-color);
+}
+
+h1  {
+    font-size: 70px;
+}
+h2{
+    padding-top: 30px;
 }
 
 .main-character{
@@ -29,6 +24,7 @@ body{
     background-color: var(--secondary-color);
     font-family: var(--heading-font);
     padding:160px 20px;
+    
 }
 .main-character p {
     font-family: var (--heading-font);
@@ -39,5 +35,23 @@ body{
     border-radius: 5px;
     font-size: 15px;
     padding: 15px 20px;
-    background: var(--primary-color)
+    background: var(--primary-color);
 }
+
+.col-6{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+@media (min-width:500px){
+    h1{
+        text-align: center;
+
+    }
+    }
