@@ -43,15 +43,19 @@ h2{
     border-radius: 10px;
 }
 
+.description{
+    padding: 10px 10px;
+}
+
 
 img{
     border-radius: 20px;
-    max-width: 100%;
+    max-width: 90%;
+    padding: 10px 10pxs;
 }
 
-@media (min-width:500px){
-    h1{
-        text-align: center;
 
-    }
-    }
+@media (max-width:900px){
+    body:text-align: center;
+
+}
