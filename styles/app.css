@@ -47,7 +47,6 @@ h2{
 
 .col-6{
     padding: 10px 10px 10px;
-    border-radius: 10px 10px;
     background-color: var(--primary-color);
     line-height: 30px;;
     border-style: dashed;
@@ -63,7 +62,7 @@ img{
     border-radius: 20px;
     border-style: dashed;
     max-width: 90%;
-    padding: 10px 10pxs;
+  
     background-color: var(--primary-color);
 
 }
