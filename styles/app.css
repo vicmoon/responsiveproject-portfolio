@@ -46,7 +46,7 @@ h2{
     
 
 .col-6{
-    padding: 10px 10px;
+    padding: 10px 10px 10px;
     border-radius: 10px 10px;
     background-color: var(--primary-color);
     line-height: 30px;;
@@ -64,12 +64,17 @@ img{
     max-width: 90%;
     padding: 10px 10pxs;
 }
+.intro {
+    max-width: 100px;
+    text-align: center;
+}
 
 @media (max-width:900px){
     body{
     text-align: center;
     }
     h1{
-        font-size: 50px;
+    font-size: 50px;
     }
 }
+
