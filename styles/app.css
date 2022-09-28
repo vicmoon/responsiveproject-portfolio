@@ -1,7 +1,8 @@
 :root{
-    --primary-color:#0745ff;
+    --primary-color:#73C2FC;
     --secondary-color:#58b6f9;
     --third-color:#131520;
+    --forth-color:yellow;
     --heading-font:'Montserrat', sans-serif;
 }
 body{
@@ -22,13 +23,13 @@ h2{
 
 .main-character{
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-family: var(--heading-font);
     padding:160px 20px;
     
 }
 .main-character p {
-    font-family: var (--heading-font);
+    font-family: var(--heading-font);
     
 }
 
@@ -36,7 +37,7 @@ h2{
     border-radius: 10px;
     font-size: 15px;
     padding: 15px 20px;
-    border-color: yellow;
+    border-color: var(--forth-color);
     
     
 }
@@ -44,16 +45,19 @@ h2{
 .col-6{
     padding: 10px 10px;
     border-radius: 10px;
-    background-color: #73C2FC;
+    background-color: var(--primary-color);
+    line-height: 30px;;
    
     
 }
 .col-6 h2{
-    text-align: center;
+    text-align: center;   
 }
+
 
 img{
     border-radius: 20px;
+    border-style: dashed;
     max-width: 90%;
     padding: 10px 10pxs;
 }
