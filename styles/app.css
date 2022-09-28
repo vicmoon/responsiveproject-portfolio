@@ -11,7 +11,7 @@ body{
     
 }
 h1, h2, h3, p{
-    color: var(--third-color);
+    color: white;
 }
 
 h1  {
@@ -23,7 +23,7 @@ h2{
 
 .main-character{
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: var(--third-color);
     font-family: var(--heading-font);
     padding:160px 20px;
     
@@ -44,7 +44,7 @@ h2{
 
 .col-6{
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px;
     background-color: var(--primary-color);
     line-height: 30px;;
    
