@@ -1,11 +1,12 @@
 :root{
     --primary-color:#0745ff;
-    --secondary-color:rgb(153, 203, 241);
-    --third-color:black;
+    --secondary-color:#58b6f9;
+    --third-color:#131520;
     --heading-font:'Montserrat', sans-serif;
 }
 body{
     font-family: var(--heading-font);
+    background-color: var(--third-color)
     
 }
 h1, h2, h3, p{
@@ -31,22 +32,25 @@ h2{
     
 }
 
-.btn-primary {
-    border-radius: 5px;
+.btn-info {
+    border-radius: 10px;
     font-size: 15px;
     padding: 15px 20px;
-    background: var(--primary-color);
+    border-color: yellow;
+    
+    
 }
 
 .col-6{
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.description{
     padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #73C2FC;
+   
+    
 }
-
+.col-6 h2{
+    text-align: center;
+}
 
 img{
     border-radius: 20px;
