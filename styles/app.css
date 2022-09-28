@@ -1,6 +1,6 @@
 :root{
     --primary-color:#73C2FC;
-    --secondary-color:#58b6f9;
+    --secondary-color:white;
     --third-color:#131520;
     --forth-color:yellow;
     --heading-font:'Montserrat', sans-serif;
@@ -47,24 +47,23 @@ h2{
 
 .col-6{
     padding: 10px 10px 10px;
-    background-color: var(--primary-color);
     line-height: 30px;;
     border-style: dashed;
-   
+    background-color: #0D1B32;
+    border-radius: 20px;  
     
 }
 .col-6 h2{
     text-align: center;   
-    color: var(--third-color);
+    color: var(--secondary-color);
 }
 
 img{
-    border-radius: 20px;
-    border-style: dashed;
+    border-radius: 20px;   
     max-width: 90%;
     background-color: var(--primary-color);
-
 }
+
 .intro {
     max-width: 100px;
     text-align: center;
