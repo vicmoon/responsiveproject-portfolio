@@ -4,6 +4,7 @@
     --third-color:black;
     --forth-color:yellow;
     --fith-color:#0D1B32;
+    --sixth-color:white;
     --heading-font:'Montserrat', sans-serif;
 }
 body{
@@ -11,8 +12,9 @@ body{
     background-color: var(--third-color)
     
 }
-h1, h2, h3, h4, p{
-    color: white;
+h1, h2, h3, h4, h6, p{
+    color: var(--sixth-color);
+    font-family: var(--heading-font);
 }
 
 h1  {
@@ -42,10 +44,9 @@ h2{
     
 }
 .footer{
-    color:white;
+    color:var(--third-color);
 }
     
-
 .col-6{
     padding: 10px 10px 10px;
     line-height: 30px;;
@@ -87,7 +88,7 @@ color: var(--third-color);
 
 }
 footer .social-links a:hover{
-    color:white;
+    color:var(--sixth-color);
     background:var(--third-color);
 }
 
@@ -95,9 +96,10 @@ footer .contact-box{
     background: var(--fith-color);
     padding: 100px ;
     border-radius: 20px;
-    border-style: dashed;
-
+    border-style: dashed;  
 }
+
+
 @media (max-width:900px){
     
     h1{
