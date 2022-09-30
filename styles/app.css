@@ -67,12 +67,29 @@ img{
 .intro {
     max-width: 100px;
     text-align: center;
+    padding: 10px 10px;
 }
 
 .logo{
     max-height: 40px;
 
 }
+
+
+footer .social-links a{
+margin:20px  20px;
+background: var(--primary-color);
+padding: 10px 14px;
+border-radius: 50px;
+max-height: 45px;
+color: var(--third-color);
+
+}
+footer .social-links a:hover{
+    color:white;
+    background:var(--third-color);
+}
+
 @media (max-width:900px){
     body{
     text-align: center;
@@ -81,17 +98,4 @@ img{
     font-size: 30px;
     }
    
-  
-}
-
-@media (min-width:350px){
-    
-    
-        }
-    h3{
-        font-size: 15px;
-        }
-    h1{
-        font-size: 25px;
-           }
 }
