@@ -1,8 +1,9 @@
 :root{
     --primary-color:#73C2FC;
     --secondary-color:white;
-    --third-color:#131520;
+    --third-color:black;
     --forth-color:yellow;
+    --fith-color:#0D1B32;
     --heading-font:'Montserrat', sans-serif;
 }
 body{
@@ -10,7 +11,7 @@ body{
     background-color: var(--third-color)
     
 }
-h1, h2, h3, p{
+h1, h2, h3, h4, p{
     color: white;
 }
 
@@ -49,7 +50,7 @@ h2{
     padding: 10px 10px 10px;
     line-height: 30px;;
     border-style: dashed;
-    background-color: #0D1B32;
+    background-color: var(--fith-color);
     border-radius: 20px;  
     
 }
@@ -90,6 +91,13 @@ footer .social-links a:hover{
     background:var(--third-color);
 }
 
+footer .contact-box{
+    background: var(--fith-color);
+    padding: 100px ;
+    border-radius: 20px;
+    border-style: dashed;
+
+}
 @media (max-width:900px){
     body{
     text-align: center;
