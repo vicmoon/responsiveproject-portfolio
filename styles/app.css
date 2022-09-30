@@ -26,7 +26,7 @@ h2{
     text-align: center;
     background-color: var(--third-color);
     font-family: var(--heading-font);
-    padding:160px 20px;
+    padding:16px;
     
 }
 .main-character p {
@@ -99,11 +99,16 @@ footer .contact-box{
 
 }
 @media (max-width:900px){
-    body{
-    text-align: center;
-    }
+    
     h1{
-    font-size: 30px;
+    font-size: 20px;
+    }
+
+    h4{font-size: 18px;
+
+    }
+    footer .contact-box{
+     max-width: 200px;
     }
    
 }
