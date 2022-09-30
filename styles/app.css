@@ -69,12 +69,29 @@ img{
     text-align: center;
 }
 
+.logo{
+    max-height: 40px;
+
+}
 @media (max-width:900px){
     body{
     text-align: center;
     }
     h1{
-    font-size: 50px;
+    font-size: 30px;
     }
+   
+  
 }
 
+@media (min-width:350px){
+    
+    
+        }
+    h3{
+        font-size: 15px;
+        }
+    h1{
+        font-size: 25px;
+           }
+}
