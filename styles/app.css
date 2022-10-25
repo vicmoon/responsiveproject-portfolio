@@ -62,8 +62,8 @@ h2{
 }
 
 img{
-    border-radius: 20px;   
-    max-width: 90%;
+    border-radius: 10px;   
+    max-width: 100%;
     background-color: var(--primary-color);
 }
 
