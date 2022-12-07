@@ -62,11 +62,14 @@ h2 {
 }
 
 img {
-  border-radius: 90px;
+  border-radius: 30px;
   max-width: 100%;
   background-color: var(--primary-color);
 }
 
+.main-character .photo {
+  border-radius: 90px;
+}
 .intro {
   max-width: 100px;
   text-align: center;
