@@ -62,7 +62,7 @@ h2 {
 }
 
 img {
-  border-radius: 30px;
+  border-radius: 90px;
   max-width: 100%;
   background-color: var(--primary-color);
 }
