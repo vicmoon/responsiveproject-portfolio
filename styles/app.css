@@ -74,7 +74,7 @@ main .card{
   text-align: center;
   background-color: var(--third-color);
   font-family: var(--heading-font);
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 16px;
 }
 .main-character p {
