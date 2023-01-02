@@ -23,11 +23,11 @@ p {
 
 h1 {
   font-size: 50px;
+  margin-top: 25px;
 }
 h2 {
   padding-top: 30px;
 }
-
 
 main {
   margin: 0 auto;
@@ -63,24 +63,21 @@ main .card{
 }
 
 
-
-
-
-
-
-
-
 .main-character {
   text-align: center;
-  background-color: var(--third-color);
+  background-color: ;
   font-family: var(--heading-font);
   border-radius: 12px;
-  padding: 16px;
+  padding: 20px;
+
 }
 .main-character p {
   font-family: var(--heading-font);
 }
 
+.main-character img {
+  border-radius: 60px;
+}
 .btn-info {
   border-radius: 10px;
   font-size: 15px;
@@ -89,14 +86,6 @@ main .card{
 }
 .footer {
   color: var(--third-color);
-}
-
-
-
-
-
-.main-character .photo {
-  border-radius: 90px;
 }
 
 
