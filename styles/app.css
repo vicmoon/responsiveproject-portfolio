@@ -47,15 +47,7 @@ border-radius: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap:20px;
 }
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-.about-section p{
-  margin-bottom: 10px;
-
-}
 main p {
   color: azure;
   font-size: 13px;
@@ -84,6 +76,16 @@ main .card{
 
 .main-character img {
   border-radius: 60px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-section p{
+  margin-bottom: 10px;
+
 }
 .btn-info {
   border-radius: 10px;
@@ -119,6 +121,7 @@ footer .contact-box {
   border-style: dashed;
 }
 
+
 @media (max-width: 900px) {
   h1 {
     font-size: 20px;
@@ -139,24 +142,21 @@ footer .contact-box {
  .secondary-footer h4, p{
     display: none;
   }
-  
   .mb-5 {
     display: none;
   
   }
-.about-section h1 {
-   display: none;
-}
-
-
-
+  
   .about-grid {
     display: grid;
     grid-template-columns: 1fr;
     
   }
-  .about-grid h2{
-   display: none;
+  .about-grid h2 {
+    text-align: center;
   }
-  
+
+  .about-section h1 {
+    display: none;
+  }
 }
