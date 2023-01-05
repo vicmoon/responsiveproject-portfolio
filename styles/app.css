@@ -91,6 +91,7 @@ main .card{
   border-radius: 10px;
   font-size: 15px;
   padding: 15px 20px;
+  margin-left: 10px;
   border-color: var(--forth-color);
 }
 .footer {
