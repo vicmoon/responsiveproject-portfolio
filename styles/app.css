@@ -47,7 +47,15 @@ border-radius: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap:20px;
 }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.about-section p{
+  margin-bottom: 10px;
+
+}
 main p {
   color: azure;
   font-size: 13px;
@@ -136,14 +144,19 @@ footer .contact-box {
     display: none;
   
   }
+.about-section h1 {
+   display: none;
+}
 
-  .about-section h1{
-    text-align: center;
-  }
+
+
   .about-grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 80px;
+    
+  }
+  .about-grid h2{
+   display: none;
   }
   
 }
