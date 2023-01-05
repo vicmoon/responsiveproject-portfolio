@@ -65,7 +65,6 @@ main .card{
 
 .main-character {
   text-align: center;
-  background-color: ;
   font-family: var(--heading-font);
   border-radius: 12px;
   padding: 20px;
@@ -86,13 +85,6 @@ main .card{
 }
 .footer {
   color: var(--third-color);
-}
-
-
-.intro {
-  max-width: 100px;
-  text-align: center;
-  padding: 10px 10px;
 }
 
 .logo {
@@ -123,11 +115,35 @@ footer .contact-box {
   h1 {
     font-size: 20px;
   }
+  main p{
+    display: none;
+  }
 
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
   h4 {
     font-size: 18px;
   }
   footer .contact-box {
     max-width: 200px;
   }
+ .secondary-footer h4, p{
+    display: none;
+  }
+  
+  .mb-5 {
+    display: none;
+  
+  }
+
+  .about-section h1{
+    text-align: center;
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 80px;
+  }
+  
 }
