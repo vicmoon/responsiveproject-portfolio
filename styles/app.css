@@ -75,7 +75,8 @@ main .card{
 }
 
 .main-character img {
-  border-radius: 60px;
+  border-radius: 70px;
+  height: fit-content;
 }
 
 .about-grid {
