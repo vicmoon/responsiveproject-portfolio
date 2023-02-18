@@ -64,6 +64,8 @@ main .card{
 #game {
   background-color: white;
 }
+
+
 .main-character {
   text-align: center;
   font-family: var(--heading-font);
