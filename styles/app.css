@@ -78,8 +78,8 @@ main .card{
 }
 
 .main-character img {
-  border-radius: 70px;
-  height: fit-content;
+  border-radius: 9px;
+  border: 2px solid var(--primary-color);
 }
 
 .about-grid {
