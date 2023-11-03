@@ -36,51 +36,106 @@ main {
   padding-bottom: 9px;
   max-width: 1300px;
 }
-main img {
-margin: 20px;
-border-radius: 20px;
 
-}
 
 .main-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap:10px;
 }
 
-main p {
-  color: azure;
-  font-size: 13px;
-  padding: 25px;
-  margin-top: 20px;
-  text-align: start;
-}
-
-main .card{
-  background: rgb(2, 2, 25);
-  padding-top: 5px;
-  padding-bottom: 15px;
-}
-#game {
-  background-color: white;
+.main-page{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  grid-gap:10px;
+  justify-content: center;
+  align-items: center;
 }
 
 
-.main-character {
+.card {
+  width: 300px; /* Set the width of your card */
+  height: 300px; /* Set the height of your card */
+  perspective: 1000px; /* Define the depth perspective for the 3D effect */
+  position: relative;
+  cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; /* Add a smooth transition for the flip effect */
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
+}
+
+.card-front-name h1{
+  color: #0d1b32;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  font-family: var(--heading-font);
-  border-radius: 12px;
-  padding: 20px;
+
+
 
 }
-.main-character p {
-  font-family: var(--heading-font);
+.card-front-name,
+.card-back-name {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main-character img {
-  border-radius: 9px;
-  border: 2px solid var(--primary-color);
+.card-back-name {
+  /* Back content (text) styles */
+  background-color: var(--primary-color);
+  transform: rotateY(180deg); /* Initially, hide the back side of the card */
 }
+
+.card-back-name p {
+  padding: 10px;
+  text-align: justify;
+  color: black;
+}
+
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back {
+  /* Back content (text) styles */
+  background-color: var(--primary-color);
+  transform: rotateY(180deg); /* Initially, hide the back side of the card */
+}
+
+.card-back p {
+  padding: 10px;
+  text-align: justify;
+  color: black;
+}
+
+.card img {
+  width: 86%;
+  height: 86%;
+  
+}
+
 
 .about-grid {
   display: grid;
@@ -125,6 +180,9 @@ footer .contact-box {
   border-radius: 20px;
   border-style: dashed;
 }
+
+
+
 
 
 @media (max-width: 900px) {
