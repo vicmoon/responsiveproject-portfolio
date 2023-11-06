@@ -183,10 +183,7 @@ footer .contact-box {
 
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 20px;
-  }
-  
+ 
 .card {
   width: 250px; /* Set the width of your card */
   height: 250px; /* Set the height of your card */
@@ -250,11 +247,7 @@ footer .contact-box {
   height: 80%;
   
 }
- 
-  .mb-5 {
-    display: none;
-  
-  }
+
   .btn-info {
     margin-bottom: 10px;
   }
@@ -274,11 +267,12 @@ footer .contact-box {
 
 
 
-@media (max-width: 650px){
+@media (max-width: 660px){
   .main-grid{
-    margin-left: 150px;
+    margin-left: 190px;
     display: flex ;
     flex-direction: column;
+    justify-content: center;
   }
 }
 
