@@ -260,16 +260,19 @@ footer .contact-box {
     text-align: center;
   }
 
-  .about-section h1 {
-    display: none;
-  }
-}
-
+ 
 
 
 @media (max-width: 660px){
+
+   .main-page{
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  
   .main-grid{
-    margin-left: 190px;
+    margin-left: 150px;
     display: flex ;
     flex-direction: column;
     justify-content: center;
@@ -278,6 +281,10 @@ footer .contact-box {
 
 
 @media (max-width: 550px){
+
+ .main-page{
+    margin-bottom: 100px;
+  }
 
   .main-grid{
     margin-left: 120px;
@@ -336,10 +343,15 @@ footer .contact-box {
 }
 
 @media (max-width: 400px){
+
+  .main-page{
+    margin-bottom: 100px;
+  }
   .main-grid {
     display: flex ;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-bottom: 25px;
   }
+}
 }
