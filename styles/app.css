@@ -258,7 +258,9 @@ main .projects {
  .main-page {
     display: flex;
     flex-direction: column;
-    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+  
     
   }
 
@@ -279,16 +281,20 @@ main .projects {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    justify-content: justify;
+   text-align: justify;
 
   }
-    
-  }
+  
   .about-grid h2 {
     text-align: center;
   }
 
  
+.about-section h1, p{
+  text-align: justify;
+
+}
+}
 
 @media (max-width: 660px){
 
