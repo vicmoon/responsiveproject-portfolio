@@ -272,8 +272,16 @@ main .projects {
     margin-bottom: 10px;
   }
   .about-grid {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-grid p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: justify;
+
+  }
     
   }
   .about-grid h2 {
@@ -374,5 +382,12 @@ main .projects {
     margin-left: 14px;
     margin-bottom: 25px;
   }
-}
+
+  .about-section p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: justify;
+
+  }
 }
