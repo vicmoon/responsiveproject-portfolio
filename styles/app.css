@@ -363,7 +363,7 @@ main .projects {
 }
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
 
   .main-page{
     margin-bottom: 100px;
@@ -371,7 +371,7 @@ main .projects {
   .main-grid {
     display: flex ;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 15px;
     margin-bottom: 25px;
   }
 }
