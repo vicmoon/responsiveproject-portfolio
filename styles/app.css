@@ -270,8 +270,8 @@ footer .contact-box {
   }
 
 .card img {
-  width: 80%;
-  height: 80%;
+  width: 78%;
+  height: 78%;
   
 }
 
@@ -312,7 +312,6 @@ footer .contact-box {
 
   
   .main-grid{
-
     display: flex ;
     flex-direction: column;
     justify-content: center;
@@ -327,7 +326,6 @@ footer .contact-box {
   }
 
   .main-grid{
-    margin-left: 120px;
     display: flex ;
     flex-direction: column;
   }
@@ -390,7 +388,6 @@ footer .contact-box {
   .main-grid {
     display: flex ;
     flex-direction: column;
-    
     margin-bottom: 25px;
   }
 
