@@ -322,6 +322,9 @@ footer .contact-box {
 @media (max-width: 550px){
 
  .main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 100px;
   }
 
@@ -383,6 +386,9 @@ footer .contact-box {
 @media (max-width: 450px){
 
   .main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 100px;
   }
   .main-grid {
