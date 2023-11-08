@@ -45,7 +45,10 @@ main  {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-gap:10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
 }
 
 .main-page{
@@ -198,17 +201,19 @@ footer .contact-box {
 @media (max-width: 900px) {
 
   
-main .projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  .main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
 
 }
  
 .card {
-  width: 300px; /* Set the width of your card */
-  height: 200px; /* Set the height of your card */
+  width: 250px; /* Set the width of your card */
+  height: 250px; /* Set the height of your card */
   perspective: 1000px; /* Define the depth perspective for the 3D effect */
   position: relative;
   cursor: pointer; /* Change the cursor to indicate interactivity */
@@ -257,7 +262,7 @@ main .projects {
 
  .main-page {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   
@@ -294,7 +299,7 @@ main .projects {
   text-align: justify;
 
 }
-}
+
 
 @media (max-width: 660px){
 
@@ -385,7 +390,7 @@ main .projects {
   .main-grid {
     display: flex ;
     flex-direction: column;
-    margin-left: 14px;
+    
     margin-bottom: 25px;
   }
 
